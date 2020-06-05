@@ -12,7 +12,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "cross-env PUBLIC_URL=/hello-angus react-scripts build",
+    "build": "react-scripts build",
     "test": "echo \"nothing\"",
     "eject": "react-scripts eject"
   },
