@@ -1,0 +1,57 @@
+{
+  "categories": {
+    "personal": {
+      "name": "个人项目",
+      "key": "1",
+      "list": [
+        {
+          "key": "1",
+          "name": "个人博客",
+          "url": "http://blog.90paw.com"
+        },
+        {
+          "key": "3",
+          "name": "免费图床",
+          "url": "http://www.90paw.com:3003",
+          "description": "口令: dxhy"
+        },
+        {
+          "key": "2",
+          "name": "JavsScript 设计模式与开发实践",
+          "url": "http://www.90paw.com:3002"
+        }
+      ]
+    },
+    "company": {
+      "name": "大象慧云",
+      "key": "2",
+      "list": [
+        {
+          "key": "1",
+          "name": "全税部门FE",
+          "url": "http://dxhy.90paw.com:4001"
+        },
+        {
+          "key": "2",
+          "name": "全税前端资源",
+          "url": "http://www.90paw.com:4002"
+        },
+        {
+          "key": "3",
+          "name": "百度组件库",
+          "url": "http://dxhy.90paw.com:4003/pages/ui-demo-shared.html"
+        },
+        {
+          "key": "4",
+          "name": "SpreadJS Converter",
+          "url": "http://dxhy.90paw.com:4004"
+        },
+        {
+          "key": "5",
+          "name": "大象慧云 ESlint",
+          "url": "http://dxhy.90paw.com:4005/eslint-config-dxhy"
+        }
+      ]
+    }
+  }
+}
