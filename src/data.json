@@ -7,18 +7,18 @@
         {
           "key": "1",
           "name": "个人博客",
-          "url": "http://blog.90paw.com"
+          "url": "https://www.90paw.com/blog"
         },
         {
           "key": "3",
           "name": "免费图床",
-          "url": "http://www.90paw.com:3003",
+          "url": "https://www.90paw.com/images",
           "description": "口令: dxhy"
         },
         {
           "key": "2",
           "name": "JavsScript 设计模式与开发实践",
-          "url": "http://www.90paw.com:3002"
+          "url": "https://www.90paw.com/javascript-design-pattern"
         }
       ]
     },
@@ -34,7 +34,7 @@
         {
           "key": "2",
           "name": "全税前端资源",
-          "url": "http://www.90paw.com:4002"
+          "url": "http://dxhy.90paw.com:4002"
         },
         {
           "key": "3",
