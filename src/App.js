@@ -1,15 +1,12 @@
 import React from 'react';
 import './App.css';
-
 class App extends React.Component {
   
   constructor() {
     super();
     this.state = {
-      colors: ['rgb(83, 143, 107)', 'rgb(39, 137, 113)', 'rgb(150, 155, 89)', 'rgb(200, 60, 97)', 'rgb(193, 75, 45)', 'rgb(184, 114, 45)', 'rgb(170, 147, 14)', 'rgb(184, 98, 133)', 'rgb(28, 100, 150)', 'rgb(62, 85, 50)', 'rgb(56, 174, 157)', 'rgb(48, 108, 66)', 'rgb(183, 133, 69)', 'rgb(239, 169, 56)'],
-      // randomColor: '#' + Math.floor(Math.random() * (2 << 23)).toString(16),
-      randomColor: '#fff',
-      data: null
+      data: null,
+      bgImageUrl: require('./bg.jpeg')
     }
   }
   
@@ -17,13 +14,33 @@ class App extends React.Component {
     const data = require('./data.json');
     this.setState({
       data: data,
-      randomColor: this.state.colors[Math.floor(Math.random() * 14)]
     })
+  
+    this.backgroundImage()
+  }
+  
+  backgroundImage(){
+    fetch(`https://source.unsplash.com/random/1920x1080/?people,wallpapers`).then((response) => {
+      this.preloadImage(response.url);
+    })
+  }
+  
+  preloadImage(url) {
+    let img = new Image();
+    img.src = url;
+    img.onload = () => {
+      this.setState({
+        bgImageUrl: url
+      });
+      setTimeout(() => {
+        this.backgroundImage()
+      }, 3000)
+    }
   }
   
   render() {
     return (
-      <div className="App" style={({'backgroundColor': this.state.randomColor})}>
+      <div className="App" style={({'background': `url(${this.state.bgImageUrl}) no-repeat`})}>
         <div className='container'>
           <div className='header-wrapper'>
             <h2>杨勇的个人网站</h2>
