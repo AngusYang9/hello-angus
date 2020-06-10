@@ -18,7 +18,7 @@ class App extends React.Component {
   
     setTimeout(() => {
       this.backgroundImage()
-    }, 3000)
+    }, 2000)
   }
   
   backgroundImage(){
