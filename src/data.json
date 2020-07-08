@@ -15,8 +15,13 @@
           "url": "https://www.90paw.com/images"
         },
         {
+          "key": "4",
+          "name": "JavaScript 算法",
+          "url": "https://www.90paw.com/javascript-algorithms"
+        },
+        {
           "key": "2",
-          "name": "JavsScript 设计模式与开发实践",
+          "name": "JavaScript 设计模式与开发实践",
           "url": "https://www.90paw.com/javascript-design-pattern"
         }
       ]
