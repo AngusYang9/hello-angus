@@ -7,27 +7,27 @@
         {
           "key": "1",
           "name": "个人博客",
-          "url": "https://www.90paw.com/blog"
+          "url": "https://www.imyangyong.com/blog"
         },
         {
           "key": "3",
           "name": "90免费图床",
-          "url": "https://www.90paw.com/images"
+          "url": "https://www.imyangyong.com/images"
         },
         {
           "key": "4",
           "name": "JavaScript 算法",
-          "url": "https://www.90paw.com/javascript-algorithms"
+          "url": "https://www.imyangyong.com/javascript-algorithms"
         },
         {
           "key": "2",
           "name": "JavaScript 设计模式与开发实践",
-          "url": "https://www.90paw.com/javascript-design-pattern"
+          "url": "https://www.imyangyong.com/javascript-design-pattern"
         }
       ]
     },
     "company": {
-      "name": "大象慧云",
+      "name": "大象慧云(前公司)",
       "key": "2",
       "list": [
         {
