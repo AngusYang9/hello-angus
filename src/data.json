@@ -23,37 +23,11 @@
           "key": "2",
           "name": "JavaScript 设计模式与开发实践",
           "url": "https://www.imyangyong.com/javascript-design-pattern"
-        }
-      ]
-    },
-    "company": {
-      "name": "大象慧云(前公司)",
-      "key": "2",
-      "list": [
-        {
-          "key": "1",
-          "name": "全税部门FE",
-          "url": "http://dxhy.90paw.com:4001"
-        },
-        {
-          "key": "2",
-          "name": "全税前端资源",
-          "url": "http://dxhy.90paw.com:4002"
-        },
-        {
-          "key": "3",
-          "name": "百度组件库",
-          "url": "http://dxhy.90paw.com:4003/pages/ui-demo-shared.html"
-        },
-        {
-          "key": "4",
-          "name": "SpreadJS Converter",
-          "url": "http://dxhy.90paw.com:4004"
         },
         {
           "key": "5",
-          "name": "大象慧云 ESlint",
-          "url": "http://dxhy.90paw.com:4005/eslint-config-dxhy"
+          "name": "SpreadJS Converter",
+          "url": "https://www.imyangyong.com/spreadjs-converter"
         }
       ]
     }
