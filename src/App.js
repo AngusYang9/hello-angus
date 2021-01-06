@@ -6,7 +6,7 @@ class App extends React.Component {
     super();
     this.state = {
       data: null,
-      bgImageUrl: require('./bg.jpeg')
+      bgImageUrl: require('./bg.jpg')
     }
   }
   
@@ -36,13 +36,13 @@ class App extends React.Component {
       });
       setTimeout(() => {
         this.backgroundImage()
-      }, 3000)
+      }, 5000)
     }
   }
   
   render() {
     return (
-      <div className="App" style={({'background': `url(${this.state.bgImageUrl}) no-repeat`})}>
+      <div className="App" style={({'background': `url(${this.state.bgImageUrl}) no-repeat`, 'backgroundSize': '100% 100%'})}>
         <div className='container'>
           <svg className="github" onClick={() => window.open('https://github.com/AngusYang9')} focusable="false" viewBox="0 0 24 24" aria-hidden="true"
                role="presentation">
