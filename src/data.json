@@ -5,8 +5,13 @@
       "key": "1",
       "list": [
         {
+          "key": "0",
+          "name": "掘金",
+          "url": "https://juejin.cn/user/536217407212894"
+        },
+        {
           "key": "1",
-          "name": "个人博客",
+          "name": "个人博客(archived)",
           "url": "https://www.imyangyong.com/blog"
         },
         {
